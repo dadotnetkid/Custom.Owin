@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13e8d06542eb426d94b7f4213286624c" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.AddressStateProvince" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.AddressTownCity" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.UserClaim" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.UserLogin" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.UserRole" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Custom.Identity.Data.Model.User" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="Custom.Identity.Data.Model.FK_dbo_AddressTownCities_dbo_AddressStateProvinces_StateProvinceId" ManuallyRouted="false" />
+        <AssociationConnector Association="Custom.Identity.Data.Model.FK_UserClaims_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Custom.Identity.Data.Model.FK_UserLogins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Custom.Identity.Data.Model.UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
