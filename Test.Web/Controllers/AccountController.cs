@@ -11,9 +11,9 @@ using Dental.ClinicGenie.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Test.Web.Models;
+using Custom.Web.Models;
 
-namespace Test.Web.Controllers
+namespace Custom.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller
